@@ -1,0 +1,2 @@
+﻿wget $URL
+hdfs dfs -put arbres.csv

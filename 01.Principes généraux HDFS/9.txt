@@ -1,0 +1,3 @@
+﻿for d in */Makefile ; do pushd $(dirname $d) ; make clean ; popd ; done
+tar cfz tp1.tar.gz $(for d in */Makefile ; do dirname $d ; done)
+tar tfvz tp1.tar.gz

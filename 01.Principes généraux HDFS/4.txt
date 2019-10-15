@@ -1,0 +1,4 @@
+﻿mkdir -p ~/lib/hadoop
+cp /usr/lib/hadoop-hdfs/hadoop-hdfs-2.8.4.jar ~/lib/hadoop
+cp /usr/lib/hadoop/client/hadoop-common-2.8.4.jar ~/lib/hadoop
+cp /usr/lib/hadoop/client/hadoop-mapreduce-client-core-2.8.4.jar ~/lib/hadoop
