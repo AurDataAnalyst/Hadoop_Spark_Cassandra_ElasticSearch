@@ -1,0 +1,7 @@
+﻿15432,Jules Verne,Le rayon vert,1882
+67527,Victor Hugo,La Légende des siècles,1855
+98784,Jules Verne,Face au drapeau,1896
+76526,Victor Hugo,Les misérables,1862
+87876,Jules Verne,L'île mystérieuse,1874
+21435,Jules Verne,De la Terre à la Lune,1865
+74261,Victor Hugo,Torquemada,1882

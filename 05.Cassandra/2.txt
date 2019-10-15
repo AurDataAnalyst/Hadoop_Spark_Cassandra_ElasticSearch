@@ -1,0 +1,25 @@
+﻿#!/bin/bash
+
+# définition de la clé primaire
+PRIMARY_KEY='(titi, toto)'
+
+# création de la table
+echo "création de la table"
+cqlsh -k $LOGNAME master <<data
+DROP TABLE IF EXISTS livres;
+CREATE TABLE livres (
+    ... ,
+    PRIMARY KEY $PRIMARY_KEY
+);
+DESCRIBE KEYSPACE;
+data
+
+# pause avant le remplissage (précaution)
+sleep 2
+
+# remplissage de la table
+echo "remplissage de la table"
+cqlsh -k $LOGNAME master <<data
+COPY livres (...) FROM 'livres.csv' ...
+data
+# fin du script

@@ -1,0 +1,3 @@
+﻿-- Requêtes CQL pour tester la table livres
+
+SELECT * FROM livres;

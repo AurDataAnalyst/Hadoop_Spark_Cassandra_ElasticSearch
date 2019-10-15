@@ -1,0 +1,1 @@
+﻿sed -i -e "s/undefined/$LOGNAME/g" Makefile schema.cql src/*.java

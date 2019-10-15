@@ -1,0 +1,3 @@
+﻿spark-submit \
+  --py-files /usr/lib/spark/jars/pyspark-cassandra-0.7.0.jar \
+  livres.py
