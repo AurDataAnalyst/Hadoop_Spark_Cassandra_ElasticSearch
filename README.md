@@ -20,5 +20,5 @@ Prérequis :
 - Bases de données
 - Systèmes d'exploitation
 
-
+## Les TP sont également inclus, je déposerai mes propositions de solution au fil de l'eau... (n'ayant pas les versions officielles) 
 
