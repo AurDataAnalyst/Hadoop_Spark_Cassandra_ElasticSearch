@@ -1,0 +1,1 @@
+﻿hdfs:/share/paris/horodateurs-transactions/Transactions_SGCH_20140811_20140820.csv
