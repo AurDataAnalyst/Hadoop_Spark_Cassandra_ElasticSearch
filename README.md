@@ -20,7 +20,7 @@ Prérequis :
 - Bases de données
 - Systèmes d'exploitation
 
-L'ensemble du cours est repris dans un seul [polycopié](https://github.com/obrunet/Cours-Hadoop-Spark-Cassandra-Elasticsearch-Pig-Hive-HBase/blob/master/poly.pdf)
+L'ensemble du cours est repris dans un seul [polycopié](https://github.com/obrunet/Lessons_Hadoop_Spark_Cassandra_Elasticsearch_Pig_Hive_HBase/blob/master/poly.pdf)
 
 #### Les TP sont également inclus, je déposerai mes propositions de solution au fil de l'eau... (n'ayant pas les versions officielles) 
 
