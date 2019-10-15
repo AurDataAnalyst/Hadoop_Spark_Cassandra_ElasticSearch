@@ -1,0 +1,3 @@
+﻿for d in */Makefile ; do pushd $(dirname "$d") ; make clean ; popd ; done
+tar cfz tp3.tar.gz --ignore-failed-read *.txt $(for d in */Makefile ; do dirname "$d" ; done)
+tar tfvz tp3.tar.gz

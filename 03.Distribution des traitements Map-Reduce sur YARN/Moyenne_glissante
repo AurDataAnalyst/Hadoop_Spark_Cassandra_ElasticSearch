@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Moyenne mobile — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Moyenne_mobile","wgTitle":"Moyenne mobile","wgCurRevisionId":157027169,"wgRevisionId":157027169,"wgArticleId":1213757,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Portail:Mathématiques/Articles liés","Portail:Sciences/Articles liés","Projet:Mathématiques/Articles","Moyenne","Statistiques"],"wgBreakFrames":!1,"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgMonthNamesShort":["","janv.","fév.","mars","avr.","mai","juin","juill.","août","sept.","oct.","nov.","déc."],"wgRelevantPageName":"Moyenne_mobile",
+"wgRelevantArticleId":1213757,"wgRequestId":"XaImbgpAAEMAAJVF9Q0AAACG","wgCSPNonce":!1,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Moyenne_glissante","wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"français","wgNoticeProject":"wikipedia","wgInternalRedirectTargetUrl":"/wiki/Moyenne_mobile","wgWikibaseItemId":"Q1130194","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready",
+"user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.math.scripts","ext.cite.ux-enhancements","ext.cite.tracking","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.ArchiveLinks","ext.gadget.MonobookToolbarStandard","ext.gadget.Wdsearch","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks",
+"ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1dpod",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"fr"});
+});mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.1"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d9/MovingAverage.GIF"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/fr.m.wikipedia.org/wiki/Moyenne_mobile"/>
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=Moyenne_mobile&amp;action=edit"/>
+<link rel="edit" title="Modifier" href="/w/index.php?title=Moyenne_mobile&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (fr)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://fr.wikipedia.org/wiki/Moyenne_mobile"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Moyenne_mobile rootpage-Moyenne_mobile skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="fr">Moyenne mobile</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">Un article de Wikip&eacute;dia, l&#039;encyclop&eacute;die libre.</div>
+		<div id="contentSub"><span class="mw-redirectedfrom">(Redirigé depuis <a href="/w/index.php?title=Moyenne_glissante&amp;redirect=no" class="mw-redirect" title="Moyenne glissante">Moyenne glissante</a>)</span></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Sauter &agrave; la navigation</a>
+		<a class="mw-jump-link" href="#p-search">Sauter &agrave; la recherche</a>
+		<div id="mw-content-text" lang="fr" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="/wiki/Fichier:MovingAverage.GIF" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/MovingAverage.GIF/250px-MovingAverage.GIF" decoding="async" width="250" height="183" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/MovingAverage.GIF/375px-MovingAverage.GIF 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d9/MovingAverage.GIF/500px-MovingAverage.GIF 2x" data-file-width="749" data-file-height="549" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Fichier:MovingAverage.GIF" class="internal" title="Agrandir"></a></div>Exemple (réalisé avec Wall Street Professionnal).</div></div></div>
+<p>La <b>moyenne mobile</b>, ou <b>moyenne glissante</b>, est un type de <a href="/wiki/Moyenne" title="Moyenne">moyenne</a> <a href="/wiki/Statistique" title="Statistique">statistique</a> utilisée pour analyser des séries ordonnées de <a href="/wiki/Donn%C3%A9e" title="Donnée">données</a>, le plus souvent des <a href="/wiki/S%C3%A9ries_temporelles" class="mw-redirect" title="Séries temporelles">séries temporelles</a>, en supprimant les <a href="https://fr.wiktionary.org/wiki/fluctuation" class="extiw" title="wikt:fluctuation">fluctuations</a> <a href="https://fr.wiktionary.org/wiki/transitoire" class="extiw" title="wikt:transitoire">transitoires</a> de façon à en souligner les tendances à plus long terme.  Cette moyenne est dite <i>mobile</i> parce qu'elle est recalculée de façon continue, en utilisant à chaque calcul un sous-ensemble d'éléments dans lequel un nouvel élément remplace le plus ancien ou s'ajoute au sous-ensemble.
+</p><p>Ce type de moyenne est utilisé généralement comme méthode de <a href="/wiki/Lissage_(math%C3%A9matiques)" title="Lissage (mathématiques)">lissage</a> de valeurs, en particulier dans le domaine <a href="/wiki/Finance" title="Finance">financier</a> pour l'<a href="/wiki/Analyse_technique" title="Analyse technique">analyse technique</a> de <a href="/wiki/Cours_boursier" title="Cours boursier">cours boursiers</a>.
+</p><p>Mathématiquement, toute moyenne mobile est un exemple de <a href="/wiki/Produit_de_convolution" title="Produit de convolution">convolution</a>. Physiquement, une moyenne mobile est un <a href="/wiki/Filtre_passe-bas" title="Filtre passe-bas">filtre passe-bas</a> et possède ainsi un lien profond avec le <a href="/wiki/Traitement_du_signal" title="Traitement du signal">traitement du signal</a>. En particulier, la moyenne mobile exponentielle, que nous allons aborder plus loin, est un filtre linéaire passe-bas du premier ordre tout à fait classique.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="fr" dir="ltr"><h2>Sommaire</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Moyenne_mobile_arithmétique"><span class="tocnumber">1</span> <span class="toctext">Moyenne mobile arithmétique</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Point_de_vue_classique"><span class="tocnumber">1.1</span> <span class="toctext">Point de vue classique</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Nature_du_filtre_constitué_par_la_moyenne_mobile_arithmétique"><span class="tocnumber">1.2</span> <span class="toctext">Nature du filtre constitué par la moyenne mobile arithmétique</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Moyenne_mobile_pondérée"><span class="tocnumber">2</span> <span class="toctext">Moyenne mobile pondérée</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Moyenne_mobile_exponentielle"><span class="tocnumber">3</span> <span class="toctext">Moyenne mobile exponentielle</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Point_de_vue_classique_2"><span class="tocnumber">3.1</span> <span class="toctext">Point de vue classique</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Nature_du_filtre_constitué_par_la_moyenne_mobile_exponentielle"><span class="tocnumber">3.2</span> <span class="toctext">Nature du filtre constitué par la moyenne mobile exponentielle</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Autres_types_de_moyennes"><span class="tocnumber">4</span> <span class="toctext">Autres types de moyennes</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Généralisation"><span class="tocnumber">5</span> <span class="toctext">Généralisation</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Réponses_impulsionnelles"><span class="tocnumber">6</span> <span class="toctext">Réponses impulsionnelles</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Notes_et_références"><span class="tocnumber">7</span> <span class="toctext">Notes et références</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Annexes"><span class="tocnumber">8</span> <span class="toctext">Annexes</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Articles_connexes"><span class="tocnumber">8.1</span> <span class="toctext">Articles connexes</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Liens_externes"><span class="tocnumber">8.2</span> <span class="toctext">Liens externes</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span id="Moyenne_mobile_arithm.C3.A9tique"></span><span class="mw-headline" id="Moyenne_mobile_arithmétique">Moyenne mobile arithmétique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Modifier la section : Moyenne mobile arithmétique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=1" title="Modifier la section : Moyenne mobile arithmétique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Point_de_vue_classique">Point de vue classique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Modifier la section : Point de vue classique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=2" title="Modifier la section : Point de vue classique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>C'est une moyenne qui au lieu d'être calculée sur l'ensemble des n valeurs d'un <a href="/wiki/%C3%89chantillonnage" class="mw-disambig" title="Échantillonnage">échantillonnage</a>, est calculée tour à tour sur chaque sous-ensemble de N valeurs consécutives (N ≤ <i>n</i>). Le sous-ensemble utilisé pour calculer chaque moyenne, parfois appelé «&#160;fenêtre&#160;», «&#160;glisse&#160;» sur l'ensemble des données.
+</p><p>Par exemple, le tableau suivant montre les moyennes mobiles simples sur 3 valeurs, pour une série de 9 mesures.
+</p>
+<table class="wikitable" align="center">
+
+<tbody><tr style="text-align:center">
+<th>Mesures
+</th>
+<td>2</td>
+<td>3</td>
+<td>5</td>
+<td>8</td>
+<td>8</td>
+<td>7</td>
+<td>8</td>
+<td>5</td>
+<td>2
+</td></tr>
+<tr style="text-align:center">
+<th>Moyenne<br />glissante
+</th>
+<td>néant</td>
+<td>(2 + 3 + 5)/3
+<p>3,3333
+</p>
+</td>
+<td>(3 + 5 + 8)/3
+<p>5,3333 
+</p>
+</td>
+<td>(5 + 8 + 8)/3
+<p>7 
+</p>
+</td>
+<td>(8 + 8 + 7)/3
+<p>7,6666 
+</p>
+</td>
+<td>(8 +7 + 8)/3
+<p>7,6666 
+</p>
+</td>
+<td>(7 + 8 + 5)/3
+<p>6,6666 
+</p>
+</td>
+<td>(8 + 5 + 2)/3
+<p>5
+</p>
+</td>
+<td>néant
+</td></tr></tbody></table>
+<p>Autre exemple&#160;: dans le cas particulier du domaine de la pollution atmosphérique, est utilisée une «&#160;<i>moyenne glissante sur 8 heures</i>&#160;» de la concentration d'un polluant (c'est en l'occurrence le cas de l'<a href="/wiki/Ozone" title="Ozone">ozone</a>, en objectif de qualité pour la protection de la santé humaine)&#160;; cette moyenne pourra être calculée de 0h00 à 8h00, de 1h00 à 9h00, de 2h00 à 10h00, etc. On recherchera, sur une journée, la valeur maximale de la moyenne glissante, qui devra être inférieure à une concentration donnée. L'intérêt d'une moyenne glissante est de lisser les éventuels écarts accidentels.
+</p><p>Le calcul successif de moyennes mobiles pour une même suite de nombres exige de conserver toutes les valeurs utilisées par les moyennes précédentes, afin de remplacer le terme le plus ancien par le plus récent.
+</p><p>Une formule permettant de calculer une moyenne mobile simple est 
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{n}={\frac {1}{\mathrm {N} }}\ \displaystyle {\sum _{k=0}^{N-1}\;{x_{n-k}}}{\text{, ou bien }}{\bar {x}}_{n}={\bar {x}}_{n-1}+{\frac {x_{n}-x_{n-\mathrm {N} }}{\mathrm {N} }}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mn>1</mn>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi mathvariant="normal">N</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mtext>&#xA0;</mtext>
+        <mstyle displaystyle="true" scriptlevel="0">
+          <mrow class="MJX-TeXAtom-ORD">
+            <munderover>
+              <mo>&#x2211;<!-- ∑ --></mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>N</mi>
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>1</mn>
+              </mrow>
+            </munderover>
+            <mspace width="thickmathspace" />
+            <mrow class="MJX-TeXAtom-ORD">
+              <msub>
+                <mi>x</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mi>k</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mtext>, ou bien&#xA0;</mtext>
+          </mrow>
+          <msub>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mover>
+                  <mi>x</mi>
+                  <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                </mover>
+              </mrow>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>n</mi>
+            </mrow>
+          </msub>
+          <mo>=</mo>
+          <msub>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mover>
+                  <mi>x</mi>
+                  <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                </mover>
+              </mrow>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>n</mi>
+              <mo>&#x2212;<!-- − --></mo>
+              <mn>1</mn>
+            </mrow>
+          </msub>
+          <mo>+</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mrow>
+                <msub>
+                  <mi>x</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>n</mi>
+                  </mrow>
+                </msub>
+                <mo>&#x2212;<!-- − --></mo>
+                <msub>
+                  <mi>x</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>n</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mi mathvariant="normal">N</mi>
+                    </mrow>
+                  </mrow>
+                </msub>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="normal">N</mi>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{n}={\frac {1}{\mathrm {N} }}\ \displaystyle {\sum _{k=0}^{N-1}\;{x_{n-k}}}{\text{, ou bien }}{\bar {x}}_{n}={\bar {x}}_{n-1}+{\frac {x_{n}-x_{n-\mathrm {N} }}{\mathrm {N} }}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/655b2d1e5b01de598fddcc800fe9fe652e4eaaba" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.171ex; width:51.609ex; height:7.509ex;" alt="{\displaystyle {\bar {x}}_{n}={\frac {1}{\mathrm {N} }}\ \displaystyle {\sum _{k=0}^{N-1}\;{x_{n-k}}}{\text{, ou bien }}{\bar {x}}_{n}={\bar {x}}_{n-1}+{\frac {x_{n}-x_{n-\mathrm {N} }}{\mathrm {N} }}}"/></span></dd></dl>
+<h3><span id="Nature_du_filtre_constitu.C3.A9_par_la_moyenne_mobile_arithm.C3.A9tique"></span><span class="mw-headline" id="Nature_du_filtre_constitué_par_la_moyenne_mobile_arithmétique">Nature du filtre constitué par la moyenne mobile arithmétique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Modifier la section : Nature du filtre constitué par la moyenne mobile arithmétique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=3" title="Modifier la section : Nature du filtre constitué par la moyenne mobile arithmétique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>L'expression de gauche, ci-dessus, n'est autre qu'un <a href="/wiki/Produit_de_convolution" title="Produit de convolution">produit de convolution</a> discret entre un signal <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle x_{n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7c5ea190699149306d242b70439e663559e3ffbe" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.548ex; height:2.009ex;" alt="x_{{n}}"/></span> et une <a href="/wiki/Fonction_porte" title="Fonction porte">fonction porte</a> de hauteur <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\frac {1}{\mathrm {N} }}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mn>1</mn>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi mathvariant="normal">N</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\frac {1}{\mathrm {N} }}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a9ea787327c8024900af2b70f52a864fb7988187" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.838ex; width:2.579ex; height:5.176ex;" alt="{\displaystyle {\frac {1}{\mathrm {N} }}}"/></span>. La <a href="/wiki/Transform%C3%A9e_de_Fourier" class="mw-redirect" title="Transformée de Fourier">transformée de Fourier</a> de cette fonction est un <a href="/wiki/Sinus_cardinal" title="Sinus cardinal">sinus cardinal</a>. Par conséquent, cette moyenne possède une <a href="/wiki/R%C3%A9ponse_en_fr%C3%A9quence" title="Réponse en fréquence">réponse en fréquence</a> potentiellement dérangeante, certaines variations de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle x_{n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7c5ea190699149306d242b70439e663559e3ffbe" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.548ex; height:2.009ex;" alt="x_{{n}}"/></span> étant reportées négativement dans <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0228b0d7b888e15823ac37c461bd4b220151512a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.548ex; height:2.343ex;" alt="{\bar  {x}}_{{n}}"/></span> et d'autres positivement. Cela est interprétable comme un <a href="/wiki/D%C3%A9phasage" title="Déphasage">déphasage</a> passant brusquement d'un extrême à l'autre en fonction de la vitesse de variation des données.
+</p>
+<h2><span id="Moyenne_mobile_pond.C3.A9r.C3.A9e"></span><span class="mw-headline" id="Moyenne_mobile_pondérée">Moyenne mobile pondérée</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Modifier la section : Moyenne mobile pondérée">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=4" title="Modifier la section : Moyenne mobile pondérée">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="/wiki/Fichier:Weighted_moving_average_weights_N%3D15.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Weighted_moving_average_weights_N%3D15.png/250px-Weighted_moving_average_weights_N%3D15.png" decoding="async" width="250" height="188" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Weighted_moving_average_weights_N%3D15.png/375px-Weighted_moving_average_weights_N%3D15.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Weighted_moving_average_weights_N%3D15.png/500px-Weighted_moving_average_weights_N%3D15.png 2x" data-file-width="1300" data-file-height="975" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Fichier:Weighted_moving_average_weights_N%3D15.png" class="internal" title="Agrandir"></a></div>Poids utilisés par une moyenne mobile pondérée de 15 valeurs.</div></div></div>
+<p>Une moyenne mobile pondérée est une moyenne mobile qui utilise des coefficients pour donner un poids distinct à chaque valeur utilisée dans le calcul.  Dans le cas d'une moyenne mobile pondérée, les poids de chaque terme décroissent linéairement, le plus récent ayant un poids de N et le plus ancien (le Nième) ayant un poids unitaire.
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{M}={n\;p_{M}+(n-1)\;p_{M-1}+\cdots +2\;p_{M-n+2}+p_{M-n+1} \over n+(n-1)+\cdots +2+1}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>M</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mi>n</mi>
+              <mspace width="thickmathspace" />
+              <msub>
+                <mi>p</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>M</mi>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <mo stretchy="false">(</mo>
+              <mi>n</mi>
+              <mo>&#x2212;<!-- − --></mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+              <mspace width="thickmathspace" />
+              <msub>
+                <mi>p</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>M</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <mo>&#x22EF;<!-- ⋯ --></mo>
+              <mo>+</mo>
+              <mn>2</mn>
+              <mspace width="thickmathspace" />
+              <msub>
+                <mi>p</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>M</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>2</mn>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <msub>
+                <mi>p</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>M</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+              <mo>+</mo>
+              <mo stretchy="false">(</mo>
+              <mi>n</mi>
+              <mo>&#x2212;<!-- − --></mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+              <mo>+</mo>
+              <mo>&#x22EF;<!-- ⋯ --></mo>
+              <mo>+</mo>
+              <mn>2</mn>
+              <mo>+</mo>
+              <mn>1</mn>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{M}={n\;p_{M}+(n-1)\;p_{M-1}+\cdots +2\;p_{M-n+2}+p_{M-n+1} \over n+(n-1)+\cdots +2+1}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b5b07e00daf9071f571e38a155c956b6c9298942" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:56.353ex; height:6.509ex;" alt="{\bar  {x}}_{{M}}={n\;p_{{M}}+(n-1)\;p_{{M-1}}+\cdots +2\;p_{{M-n+2}}+p_{{M-n+1}} \over n+(n-1)+\cdots +2+1}"/></span></dd></dl>
+<p>Le dénominateur est un <a href="/wiki/Nombre_triangulaire" title="Nombre triangulaire">nombre triangulaire</a>, et peut être directement calculé comme <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\frac {n\;(n+1)}{2}}.}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mi>n</mi>
+              <mspace width="thickmathspace" />
+              <mo stretchy="false">(</mo>
+              <mi>n</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+          </mfrac>
+        </mrow>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\frac {n\;(n+1)}{2}}.}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5291f2578869c5b0b8166f327465ca9e36b5a07" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.838ex; width:10.73ex; height:5.676ex;" alt="{\frac  {n\;(n+1)}{2}}."/></span>
+</p><p>Comme la moyenne mobile simple, le calcul successif de moyennes mobiles pondérées pour une même suite exige de conserver toutes les valeurs utilisées par les moyennes précédentes.
+</p>
+<div style="clear:both;"></div>
+<h2><span class="mw-headline" id="Moyenne_mobile_exponentielle">Moyenne mobile exponentielle</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Modifier la section : Moyenne mobile exponentielle">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=5" title="Modifier la section : Moyenne mobile exponentielle">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Point_de_vue_classique_2">Point de vue classique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Modifier la section : Point de vue classique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=6" title="Modifier la section : Point de vue classique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="/wiki/Fichier:Exponential_moving_average_weights_N%3D15.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Exponential_moving_average_weights_N%3D15.png/250px-Exponential_moving_average_weights_N%3D15.png" decoding="async" width="250" height="188" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Exponential_moving_average_weights_N%3D15.png/375px-Exponential_moving_average_weights_N%3D15.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Exponential_moving_average_weights_N%3D15.png/500px-Exponential_moving_average_weights_N%3D15.png 2x" data-file-width="1300" data-file-height="975" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Fichier:Exponential_moving_average_weights_N%3D15.png" class="internal" title="Agrandir"></a></div>Poids utilisés pour les 21 plus récentes valeurs composant une moyenne mobile exponentielle de décroissance <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \alpha =0,125}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo>=</mo>
+        <mn>0</mn>
+        <mo>,</mo>
+        <mn>125</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \alpha =0,125}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d2385d6d6dc941d174ea25f510daf2bac8a87517" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:10.27ex; height:2.509ex;" alt="{\displaystyle \alpha =0,125}"/></span> (N=15).</div></div></div>
+<p>Une moyenne mobile exponentielle utilise une pondération des termes qui décroît <a href="/wiki/Exponentiation" title="Exponentiation">exponentiellement</a>. Le poids de chaque valeur participant à la moyenne (souvent désignée par le terme <i>observation</i> en <a href="/wiki/Statistique" title="Statistique">statistiques</a>) est d'un facteur plus grand que la valeur qui le précède dans la série, ce qui donne plus d'importance aux observations les plus récentes, sans toutefois jamais supprimer complètement l'effet des valeurs les plus anciennes.
+</p><p>Une <i>constante de lissage</i> contrôle le degré de décroissance des poids applicables à chaque observation participant à la moyenne. Cette constante, α, est un nombre compris entre 0 et 1&#160;; elle peut être exprimée&#160;:
+</p>
+<ul><li>par sa valeur numérique&#160;: α = 0,1&#160;;</li>
+<li>en pourcentage&#160;: α = 10&#160;% équivaut à α = 0,1&#160;;</li>
+<li>en nombre de périodes&#160;: N = 19, où <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle \alpha =\textstyle {\frac {2}{\mathrm {N} +1}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mi>&#x03B1;<!-- α --></mi>
+          <mo>=</mo>
+          <mstyle displaystyle="false" scriptlevel="0">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>2</mn>
+                <mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi mathvariant="normal">N</mi>
+                  </mrow>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mstyle>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle \alpha =\textstyle {\frac {2}{\mathrm {N} +1}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5e2f6f122cb179a5b5b0383563e245974c43dc2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.338ex; width:6.5ex; height:3.676ex;" alt="{\displaystyle \scriptstyle \alpha =\textstyle {\frac {2}{\mathrm {N} +1}}}"/></span> approximativement, équivaut également à α = 0,1.</li></ul>
+<p>Contrairement aux autres types de moyennes glissantes, le nombre de périodes N ne représente pas le nombre de valeurs participant à la moyenne&#160;; il ne sert qu'à spécifier la constante de lissage α. En effet, chaque nouveau calcul de la moyenne mobile exponentielle <i>ajoute</i> l'effet de la plus récente observation sans en abandonner une plus ancienne. Le poids total des N plus récentes observations utilisées par une moyenne mobile exponentielle constitue environ 86&#160;% du poids total avec la formule <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle \alpha =\textstyle {\frac {2}{\mathrm {N} +1}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mi>&#x03B1;<!-- α --></mi>
+          <mo>=</mo>
+          <mstyle displaystyle="false" scriptlevel="0">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>2</mn>
+                <mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi mathvariant="normal">N</mi>
+                  </mrow>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mstyle>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle \alpha =\textstyle {\frac {2}{\mathrm {N} +1}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5e2f6f122cb179a5b5b0383563e245974c43dc2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.338ex; width:6.5ex; height:3.676ex;" alt="{\displaystyle \scriptstyle \alpha =\textstyle {\frac {2}{\mathrm {N} +1}}}"/></span> (la précision de cette formule augmente avec N) . Pour que N périodes pèsent précisément 86&#160;% dans la moyenne (surtout requis lorsque N est petit), la formule exacte est α = 1 - (1 - 0,86)<sup>1/N</sup>.
+</p><p>Dans sa forme la plus simple, la moyenne pondérée exponentielle s'exprime en fonction de cette même moyenne calculée lors de la précédente période. Il en existe deux formulations: 
+</p>
+<dl><dd>Roberts<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup> (1959)&#160;: <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{t}=\alpha x_{t}+(1-\alpha ){\bar {x}}_{t-1}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mn>1</mn>
+        <mo>&#x2212;<!-- − --></mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo stretchy="false">)</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{t}=\alpha x_{t}+(1-\alpha ){\bar {x}}_{t-1}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/707477d31d19fc27cee88bd9cfb7ecf522c285ee" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:23.294ex; height:2.843ex;" alt="{\displaystyle {\bar {x}}_{t}=\alpha x_{t}+(1-\alpha ){\bar {x}}_{t-1}}"/></span> ——  Hunter<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup> (1986)&#160;: <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{t}=\alpha \;x_{t-1}+(1-\alpha )\;{\bar {x}}_{t-1}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mspace width="thickmathspace" />
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <mo stretchy="false">(</mo>
+        <mn>1</mn>
+        <mo>&#x2212;<!-- − --></mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo stretchy="false">)</mo>
+        <mspace width="thickmathspace" />
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{t}=\alpha \;x_{t-1}+(1-\alpha )\;{\bar {x}}_{t-1}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4c41273c8d577f2826b30e1e43431fa102f27442" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:26.685ex; height:2.843ex;" alt="{\bar  {x}}_{{t}}=\alpha \;x_{{t-1}}+(1-\alpha )\;{\bar  {x}}_{{t-1}}"/></span></dd></dl>
+<p>On peut écrire différemment ces expressions pour souligner que la moyenne mobile exponentielle tend à conserver sa valeur précédente, n'en différant que par une fraction de sa différence avec la plus récente observation:
+</p>
+<dl><dd>Roberts (1959)&#160;: <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{t}={\bar {x}}_{t-1}+\alpha (x_{t}-{\bar {x}}_{t-1})}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>&#x2212;<!-- − --></mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{t}={\bar {x}}_{t-1}+\alpha (x_{t}-{\bar {x}}_{t-1})}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b7b0f8192e39321c253b0d8440fc9c694d63b533" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:24.9ex; height:2.843ex;" alt="{\displaystyle {\bar {x}}_{t}={\bar {x}}_{t-1}+\alpha (x_{t}-{\bar {x}}_{t-1})}"/></span> —— Hunter (1986)&#160;: <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{t}={\bar {x}}_{t-1}+\alpha (x_{t-1}-{\bar {x}}_{t-1})}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>&#x2212;<!-- − --></mo>
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+            <mo>&#x2212;<!-- − --></mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{t}={\bar {x}}_{t-1}+\alpha (x_{t-1}-{\bar {x}}_{t-1})}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/40a25fa20b83c79f965e12cad9af8372d8bee54d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:27ex; height:2.843ex;" alt="{\displaystyle {\bar {x}}_{t}={\bar {x}}_{t-1}+\alpha (x_{t-1}-{\bar {x}}_{t-1})}"/></span></dd></dl>
+<p>Une moyenne mobile exponentielle doit être initialisée; le plus souvent, on impose <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{1}=x_{1}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{1}=x_{1}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5a284d43494cb4777cc89a374d1bcff8461e0943" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:7.866ex; height:2.343ex;" alt="{\bar  {x}}_{1}=x_{{1}}"/></span> mais on peut également, par exemple, lui assigner une moyenne simple des 4 ou 5 premières observations. L'effet de l'initialisation de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{1}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{1}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8d6b2c89bbe61dcd9b39f1914d7ad9273b7b5be8" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.384ex; height:2.343ex;" alt="{\bar  {x}}_{1}"/></span> sur les moyennes mobiles ultérieures dépend de α&#160;; de plus grandes valeurs de la constante de lissage tendent à atténuer plus rapidement l'impact des observations plus anciennes. En effet, l'expansion de la forme de Roberts en y substituant <a href="/wiki/Algorithme_r%C3%A9cursif" title="Algorithme récursif">récursivement</a> les moyennes mobiles exponentielles des calculs précédents donne une <a href="/wiki/S%C3%A9rie_(math%C3%A9matiques)" title="Série (mathématiques)">somme infinie</a>, mais puisque l'expression 1 - α est inférieure à 1, les termes anciens sont de plus en plus petits et peuvent éventuellement être ignorés.
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{t}=\alpha \left(x_{t}+(1-\alpha )x_{t-1}+(1-\alpha )^{2}x_{t-2}+(1-\alpha )^{3}x_{t-3}+\cdots \right)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <msub>
+              <mi>x</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>t</mi>
+              </mrow>
+            </msub>
+            <mo>+</mo>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo>&#x2212;<!-- − --></mo>
+            <mi>&#x03B1;<!-- α --></mi>
+            <mo stretchy="false">)</mo>
+            <msub>
+              <mi>x</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>t</mi>
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>1</mn>
+              </mrow>
+            </msub>
+            <mo>+</mo>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo>&#x2212;<!-- − --></mo>
+            <mi>&#x03B1;<!-- α --></mi>
+            <msup>
+              <mo stretchy="false">)</mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <msub>
+              <mi>x</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>t</mi>
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>2</mn>
+              </mrow>
+            </msub>
+            <mo>+</mo>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo>&#x2212;<!-- − --></mo>
+            <mi>&#x03B1;<!-- α --></mi>
+            <msup>
+              <mo stretchy="false">)</mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mn>3</mn>
+              </mrow>
+            </msup>
+            <msub>
+              <mi>x</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>t</mi>
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>3</mn>
+              </mrow>
+            </msub>
+            <mo>+</mo>
+            <mo>&#x22EF;<!-- ⋯ --></mo>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{t}=\alpha \left(x_{t}+(1-\alpha )x_{t-1}+(1-\alpha )^{2}x_{t-2}+(1-\alpha )^{3}x_{t-3}+\cdots \right)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8916c187f9da042057095f694eec5460e54d2c6a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.005ex; width:62.275ex; height:3.343ex;" alt="{\displaystyle {\bar {x}}_{t}=\alpha \left(x_{t}+(1-\alpha )x_{t-1}+(1-\alpha )^{2}x_{t-2}+(1-\alpha )^{3}x_{t-3}+\cdots \right)}"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{t}=\displaystyle \sum _{n=0}^{\infty }\alpha (1-\alpha )^{n}x_{t-n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mstyle displaystyle="true" scriptlevel="0">
+          <munderover>
+            <mo>&#x2211;<!-- ∑ --></mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>n</mi>
+              <mo>=</mo>
+              <mn>0</mn>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
+            </mrow>
+          </munderover>
+          <mi>&#x03B1;<!-- α --></mi>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>&#x2212;<!-- − --></mo>
+          <mi>&#x03B1;<!-- α --></mi>
+          <msup>
+            <mo stretchy="false">)</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>n</mi>
+            </mrow>
+          </msup>
+          <msub>
+            <mi>x</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+              <mo>&#x2212;<!-- − --></mo>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{t}=\displaystyle \sum _{n=0}^{\infty }\alpha (1-\alpha )^{n}x_{t-n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b126ef7b3619b11e0f1601065eacbb21a75d4e63" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.005ex; width:23.422ex; height:6.843ex;" alt="{\displaystyle {\bar {x}}_{t}=\displaystyle \sum _{n=0}^{\infty }\alpha (1-\alpha )^{n}x_{t-n}}"/></span></dd></dl>
+<p>En posant β = (1 - α), β ∈ [0, 1] et en remarquant que <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\frac {1}{\alpha }}={\frac {1}{1-\beta }}=1+\beta +\beta ^{2}+\ldots +\beta ^{n}+\ldots }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mn>1</mn>
+            <mi>&#x03B1;<!-- α --></mi>
+          </mfrac>
+        </mrow>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mn>1</mn>
+              <mo>&#x2212;<!-- − --></mo>
+              <mi>&#x03B2;<!-- β --></mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>+</mo>
+        <mi>&#x03B2;<!-- β --></mi>
+        <mo>+</mo>
+        <msup>
+          <mi>&#x03B2;<!-- β --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msup>
+        <mo>+</mo>
+        <mo>&#x2026;<!-- … --></mo>
+        <mo>+</mo>
+        <msup>
+          <mi>&#x03B2;<!-- β --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msup>
+        <mo>+</mo>
+        <mo>&#x2026;<!-- … --></mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\frac {1}{\alpha }}={\frac {1}{1-\beta }}=1+\beta +\beta ^{2}+\ldots +\beta ^{n}+\ldots }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5cddf3c59ff9de70595b0f39004547c0660e1cd8" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.338ex; width:41.781ex; height:5.676ex;" alt="{\displaystyle {\frac {1}{\alpha }}={\frac {1}{1-\beta }}=1+\beta +\beta ^{2}+\ldots +\beta ^{n}+\ldots }"/></span>, on a&#160;:
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {x}}_{t}=\lim _{n\to \infty }{\frac {x_{t}+\beta \ x_{t-1}+\beta ^{2}\ x_{t-2}\ +\ldots +\ \beta ^{n}\ x_{t-n}}{1+\beta +\beta ^{2}+\ldots +\beta ^{n}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mover>
+                <mi>x</mi>
+                <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+              </mover>
+            </mrow>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <munder>
+          <mo movablelimits="true" form="prefix">lim</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+            <mo stretchy="false">&#x2192;<!-- → --></mo>
+            <mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
+          </mrow>
+        </munder>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <msub>
+                <mi>x</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>t</mi>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <mi>&#x03B2;<!-- β --></mi>
+              <mtext>&#xA0;</mtext>
+              <msub>
+                <mi>x</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>t</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <msup>
+                <mi>&#x03B2;<!-- β --></mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mn>2</mn>
+                </mrow>
+              </msup>
+              <mtext>&#xA0;</mtext>
+              <msub>
+                <mi>x</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>t</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>2</mn>
+                </mrow>
+              </msub>
+              <mtext>&#xA0;</mtext>
+              <mo>+</mo>
+              <mo>&#x2026;<!-- … --></mo>
+              <mo>+</mo>
+              <mtext>&#xA0;</mtext>
+              <msup>
+                <mi>&#x03B2;<!-- β --></mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>n</mi>
+                </mrow>
+              </msup>
+              <mtext>&#xA0;</mtext>
+              <msub>
+                <mi>x</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>t</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mi>n</mi>
+                </mrow>
+              </msub>
+            </mrow>
+            <mrow>
+              <mn>1</mn>
+              <mo>+</mo>
+              <mi>&#x03B2;<!-- β --></mi>
+              <mo>+</mo>
+              <msup>
+                <mi>&#x03B2;<!-- β --></mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mn>2</mn>
+                </mrow>
+              </msup>
+              <mo>+</mo>
+              <mo>&#x2026;<!-- … --></mo>
+              <mo>+</mo>
+              <msup>
+                <mi>&#x03B2;<!-- β --></mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>n</mi>
+                </mrow>
+              </msup>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {x}}_{t}=\lim _{n\to \infty }{\frac {x_{t}+\beta \ x_{t-1}+\beta ^{2}\ x_{t-2}\ +\ldots +\ \beta ^{n}\ x_{t-n}}{1+\beta +\beta ^{2}+\ldots +\beta ^{n}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/288e371f6589e09a17759b29c3c9dccfbecc5876" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.505ex; width:49.105ex; height:6.343ex;" alt="{\displaystyle {\bar {x}}_{t}=\lim _{n\to \infty }{\frac {x_{t}+\beta \ x_{t-1}+\beta ^{2}\ x_{t-2}\ +\ldots +\ \beta ^{n}\ x_{t-n}}{1+\beta +\beta ^{2}+\ldots +\beta ^{n}}}}"/></span></dd></dl>
+<h3><span id="Nature_du_filtre_constitu.C3.A9_par_la_moyenne_mobile_exponentielle"></span><span class="mw-headline" id="Nature_du_filtre_constitué_par_la_moyenne_mobile_exponentielle">Nature du filtre constitué par la moyenne mobile exponentielle</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Modifier la section : Nature du filtre constitué par la moyenne mobile exponentielle">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=7" title="Modifier la section : Nature du filtre constitué par la moyenne mobile exponentielle">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>L'expression <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle \sum _{n=0}^{\infty }\alpha (1-\alpha )^{n}x_{t-n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <munderover>
+            <mo>&#x2211;<!-- ∑ --></mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>n</mi>
+              <mo>=</mo>
+              <mn>0</mn>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
+            </mrow>
+          </munderover>
+          <mi>&#x03B1;<!-- α --></mi>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>&#x2212;<!-- − --></mo>
+          <mi>&#x03B1;<!-- α --></mi>
+          <msup>
+            <mo stretchy="false">)</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>n</mi>
+            </mrow>
+          </msup>
+          <msub>
+            <mi>x</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+              <mo>&#x2212;<!-- − --></mo>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle \sum _{n=0}^{\infty }\alpha (1-\alpha )^{n}x_{t-n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/46da0b660e9acf0b952039d0ebf141a813efd23d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:14.666ex; height:2.343ex;" alt="\scriptstyle \sum _{{n=0}}^{{\infty }}\alpha (1-\alpha )^{n}x_{{t-n}}"/></span>, ci-avant, n'est autre qu'un <a href="/wiki/Produit_de_convolution" title="Produit de convolution">produit de convolution</a> discret entre un signal <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle x_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <msub>
+            <mi>x</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle x_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bdf71432dbc7cbaca7cae3a616b34351fbb26a03" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:1.586ex; height:1.509ex;" alt="\scriptstyle x_{{t}}"/></span> et un <a href="/wiki/Filtre_passe-bas" title="Filtre passe-bas">filtre passe-bas</a> du premier ordre. En effet, en écrivant <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle \alpha (1-\alpha )^{n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mi>&#x03B1;<!-- α --></mi>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>&#x2212;<!-- − --></mo>
+          <mi>&#x03B1;<!-- α --></mi>
+          <msup>
+            <mo stretchy="false">)</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>n</mi>
+            </mrow>
+          </msup>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle \alpha (1-\alpha )^{n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6e4f02e7181e4da341f7dd49370f7ca7fb5d131f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:6.449ex; height:2.176ex;" alt="\scriptstyle \alpha (1-\alpha )^{n}"/></span> sous la forme <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle {\frac {\alpha }{\ln {\frac {1}{1-\alpha }}}}\ln {\frac {1}{1-\alpha }}e^{-n\ln {\frac {1}{1-\alpha }}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mi>&#x03B1;<!-- α --></mi>
+              <mrow>
+                <mi>ln</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mi>&#x03B1;<!-- α --></mi>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+              </mrow>
+            </mfrac>
+          </mrow>
+          <mi>ln</mi>
+          <mo>&#x2061;<!-- ⁡ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mn>1</mn>
+              <mrow>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <mi>&#x03B1;<!-- α --></mi>
+              </mrow>
+            </mfrac>
+          </mrow>
+          <msup>
+            <mi>e</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mo>&#x2212;<!-- − --></mo>
+              <mi>n</mi>
+              <mi>ln</mi>
+              <mo>&#x2061;<!-- ⁡ --></mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mfrac>
+                  <mn>1</mn>
+                  <mrow>
+                    <mn>1</mn>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mi>&#x03B1;<!-- α --></mi>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </mrow>
+          </msup>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle {\frac {\alpha }{\ln {\frac {1}{1-\alpha }}}}\ln {\frac {1}{1-\alpha }}e^{-n\ln {\frac {1}{1-\alpha }}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c7891a49cab7f0850f539273b4b34b04390b14b5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.171ex; width:19.325ex; height:6.343ex;" alt="\scriptstyle {\frac  {\alpha }{\ln {{\frac  {1}{1-\alpha }}}}}\ln {{\frac  {1}{1-\alpha }}}e^{{-n\ln {{\frac  {1}{1-\alpha }}}}}"/></span>, on identifie la réponse impulsionnelle d'un filtre passe bas du premier ordre d'amplification <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle -{\frac {\alpha }{\ln(1-\alpha )}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mo>&#x2212;<!-- − --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mi>&#x03B1;<!-- α --></mi>
+              <mrow>
+                <mi>ln</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <mi>&#x03B1;<!-- α --></mi>
+                <mo stretchy="false">)</mo>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle -{\frac {\alpha }{\ln(1-\alpha )}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6f6903bc4f812dd4363766d54039fa3bf28ad1c6" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.671ex; width:6.826ex; height:3.343ex;" alt="\scriptstyle -{\frac  {\alpha }{\ln(1-\alpha )}}"/></span> et dont la pulsation de coupure est <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle -\ln(1-\alpha )}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mo>&#x2212;<!-- − --></mo>
+          <mi>ln</mi>
+          <mo>&#x2061;<!-- ⁡ --></mo>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>&#x2212;<!-- − --></mo>
+          <mi>&#x03B1;<!-- α --></mi>
+          <mo stretchy="false">)</mo>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle -\ln(1-\alpha )}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/781b5096acc2599178f25035ad770c4ba62de21b" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:7.469ex; height:2.176ex;" alt="\scriptstyle -\ln(1-\alpha )"/></span>, exprimée en radians/échantillon. <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle \ln(1-\alpha )}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mi>ln</mi>
+          <mo>&#x2061;<!-- ⁡ --></mo>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>&#x2212;<!-- − --></mo>
+          <mi>&#x03B1;<!-- α --></mi>
+          <mo stretchy="false">)</mo>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle \ln(1-\alpha )}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5c17f56c2a12decff58cf5cf260779f5721f2781" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:5.803ex; height:2.176ex;" alt="\scriptstyle \ln(1-\alpha )"/></span> est négatif, les paramètres du filtre sont donc bien positifs.
+</p><p>Pour considérer des formes plus adaptées au contexte, notons que la <a href="/wiki/Fr%C3%A9quence_de_coupure" title="Fréquence de coupure">fréquence de coupure</a> est de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle -{\frac {\ln(1-\alpha )}{2\pi }}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mo>&#x2212;<!-- − --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mrow>
+                <mi>ln</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <mi>&#x03B1;<!-- α --></mi>
+                <mo stretchy="false">)</mo>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+                <mi>&#x03C0;<!-- π --></mi>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle -{\frac {\ln(1-\alpha )}{2\pi }}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7332596c8371b1c3e4c1cb951de30d951298ce28" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.171ex; width:6.826ex; height:3.676ex;" alt="\scriptstyle -{\frac  {\ln(1-\alpha )}{2\pi }}"/></span> cycles/échantillon, soit une période de coupure de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle -{\frac {2\pi }{\ln(1-\alpha )}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mo>&#x2212;<!-- − --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mrow>
+                <mn>2</mn>
+                <mi>&#x03C0;<!-- π --></mi>
+              </mrow>
+              <mrow>
+                <mi>ln</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <mi>&#x03B1;<!-- α --></mi>
+                <mo stretchy="false">)</mo>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle -{\frac {2\pi }{\ln(1-\alpha )}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/410a504da8db6d13a579a6530a55e6e1449921a6" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.671ex; width:6.826ex; height:3.676ex;" alt="\scriptstyle -{\frac  {2\pi }{\ln(1-\alpha )}}"/></span> échantillons. Concrètement, lorsque <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle x_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <msub>
+            <mi>x</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle x_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bdf71432dbc7cbaca7cae3a616b34351fbb26a03" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:1.586ex; height:1.509ex;" alt="\scriptstyle x_{{t}}"/></span> varie assez rapidement, lorsque <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle x_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <msub>
+            <mi>x</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle x_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bdf71432dbc7cbaca7cae3a616b34351fbb26a03" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:1.586ex; height:1.509ex;" alt="\scriptstyle x_{{t}}"/></span> fluctue en moins de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle -{\frac {2\pi }{\ln(1-\alpha )}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mo>&#x2212;<!-- − --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mrow>
+                <mn>2</mn>
+                <mi>&#x03C0;<!-- π --></mi>
+              </mrow>
+              <mrow>
+                <mi>ln</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <mi>&#x03B1;<!-- α --></mi>
+                <mo stretchy="false">)</mo>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle -{\frac {2\pi }{\ln(1-\alpha )}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/410a504da8db6d13a579a6530a55e6e1449921a6" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.671ex; width:6.826ex; height:3.676ex;" alt="\scriptstyle -{\frac  {2\pi }{\ln(1-\alpha )}}"/></span> échantillons, la fluctuation se retrouve dans <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle {\bar {x}}_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <msub>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mover>
+                  <mi>x</mi>
+                  <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                </mover>
+              </mrow>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle {\bar {x}}_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2489822b42d37f05439f8986d9af770dbc054727" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:1.592ex; height:2.009ex;" alt="\scriptstyle {\bar  {x}}_{{t}}"/></span> mais est d'autant plus affaiblie qu'elle est rapide. Plus précisément, l'atténuation est de 20 dB/décade.
+</p><p>Par conséquent, la moyenne mobile exponentielle souffre du principal défaut des filtres passe bas classiques, à savoir un <a href="/wiki/D%C3%A9phasage" title="Déphasage">déphasage</a> des données. Cela se traduit par un retard entre l'évolution de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle {\bar {x}}_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <msub>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mrow class="MJX-TeXAtom-ORD">
+                <mover>
+                  <mi>x</mi>
+                  <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                </mover>
+              </mrow>
+            </mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle {\bar {x}}_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2489822b42d37f05439f8986d9af770dbc054727" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:1.592ex; height:2.009ex;" alt="\scriptstyle {\bar  {x}}_{{t}}"/></span> et l'évolution des données <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \scriptstyle x_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <msub>
+            <mi>x</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>t</mi>
+            </mrow>
+          </msub>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle x_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bdf71432dbc7cbaca7cae3a616b34351fbb26a03" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:1.586ex; height:1.509ex;" alt="\scriptstyle x_{{t}}"/></span>, et ce retard dépend de la rapidité de l'évolution.
+</p>
+<h2><span class="mw-headline" id="Autres_types_de_moyennes">Autres types de moyennes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=8" class="mw-editsection-visualeditor" title="Modifier la section : Autres types de moyennes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=8" title="Modifier la section : Autres types de moyennes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Tout comme il existe une infinité de filtres dans le domaine du <a href="/wiki/Traitement_du_signal" title="Traitement du signal">traitement du signal</a>, il existe une infinité de moyennes glissantes. Nous avons abordé dans cet article les plus courantes et avons évoqué leurs particularités dans l'espace de Fourier. Nous nous apercevons qu'elles entraînent des déphasages qui nuisent à la qualité des résultats. Nous aurions pu aborder aussi les questions spectrales soulevées par l'<a href="/wiki/%C3%89chantillonnage_(signal)" title="Échantillonnage (signal)">échantillonnage</a> sous-jacent aux produits de convolution discrets.
+</p><p>Une moyenne moins commune possède de meilleures caractéristiques. Elle se réalise par un <a href="/w/index.php?title=Gaussian_filter_(en)&amp;action=edit&amp;redlink=1" class="new" title="Gaussian filter (en) (page inexistante)">filtre gaussien</a> récursif. Bien qu'un filtre gaussien récursif parfait n'existe pas, il existe d'excellentes approximations d'ordre 4 grâce auxquelles seuls les défauts liés à l'échantillonnage subsistent (voir, par exemple, Deriche 1993). En effet, la transformée de Fourier d'une gaussienne est une gaussienne. Par conséquent, elle ne présente aucun déphasage, à contrario de la moyenne mobile exponentielle, et aucune oscillation, à contrario de la moyenne mobile arithmétique. Mais les calculs sont plus lourds (un filtre quasi-gaussien d'ordre 4 nécessite environ 16 opérations par valeur) et ces caractéristiques idéales ne sont rencontrées que si la moyenne est réalisée sur des données connues d'avance (un déphasage apparaît si seule la partie causale du filtre est utilisée).
+</p><p>Enfin, au lieu d'utiliser une moyenne, on peut utiliser un autre <a href="/wiki/Crit%C3%A8re_de_position" class="mw-redirect" title="Critère de position">critère de position</a>, typiquement la <a href="/wiki/M%C3%A9diane_(statistiques)" title="Médiane (statistiques)">médiane</a>.
+</p>
+<h2><span id="G.C3.A9n.C3.A9ralisation"></span><span class="mw-headline" id="Généralisation">Généralisation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=9" class="mw-editsection-visualeditor" title="Modifier la section : Généralisation">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=9" title="Modifier la section : Généralisation">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-section bandeau-niveau-detail loupe">Article détaillé&#160;: <a href="/wiki/Algorithme_de_Savitzky-Golay" title="Algorithme de Savitzky-Golay">Algorithme de Savitzky-Golay</a>.</div>
+<p>On peut voir la moyenne comme une <a href="/wiki/R%C3%A9gression_(statistiques)" title="Régression (statistiques)">régression</a> par une droite horizontale. On peut à la place utiliser une <a href="/wiki/R%C3%A9gression_polynomiale" title="Régression polynomiale">régression polynomiale</a>&#160;: sur la fenêtre glissante, on effectue une régression polynomiale, et la valeur au centre de la fenêtre est remplacée par la valeur du polynôme trouvé (valeur lissée). Ce type de filtre est «&#160;moins brutal&#160;» et permet également de déterminer la dérivée de la courbe lissée. Si l'espacement entre les échantillons est constant, la valeur lissée est simplement une <a href="/wiki/Combinaison_lin%C3%A9aire" title="Combinaison linéaire">combinaison linéaire</a> des valeurs contenues dans la fenêtre, c'est-à-dire au final une moyenne pondérée, les coefficients de pondération n'étant ni linéaires, ni exponentiels mais formant une «&#160;courbe en cloche&#160;» symétrique par rapport au centre de la fenêtre.
+</p>
+<h2><span id="R.C3.A9ponses_impulsionnelles"></span><span class="mw-headline" id="Réponses_impulsionnelles">Réponses impulsionnelles</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=10" class="mw-editsection-visualeditor" title="Modifier la section : Réponses impulsionnelles">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=10" title="Modifier la section : Réponses impulsionnelles">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:402px;"><a href="/wiki/Fichier:Impulsion_avg.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Impulsion_avg.png/400px-Impulsion_avg.png" decoding="async" width="400" height="238" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Impulsion_avg.png/600px-Impulsion_avg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/b/b4/Impulsion_avg.png 2x" data-file-width="619" data-file-height="369" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Fichier:Impulsion_avg.png" class="internal" title="Agrandir"></a></div>Réponse à une impulsion pour des indicateurs SMA/EMA (N=20, Metastock v10).</div></div></div>
+<p>On peut voir sur le graphique ci-contre la <a href="/wiki/R%C3%A9ponse_impulsionnelle" title="Réponse impulsionnelle">réponse impulsionnelle</a> pour deux types de moyennes. On peut y lire les valeurs de la pondération utilisée, à une symétrie près (résultat Metastock v10).
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=11" class="mw-editsection-visualeditor" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=11" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li class="mw-empty-elt"></li>
+<li><abbr class="abbr indicateur-langue" title="Langue&#32;: anglais">(en)</abbr> Cet article est partiellement ou en totalité issu de l’article de Wikipédia en <a href="/wiki/Anglais" title="Anglais">anglais</a> intitulé <span class="plainlinks">«&#160;<a class="external text" href="https://en.wikipedia.org/wiki/Moving_average?oldid=158840070">Moving average</a>&#160;» <small>(<a class="external text" href="https://en.wikipedia.org/wiki/Moving_average?action=history">voir la liste des auteurs</a>)</small></span>.</li></ul>
+<div class="references-small decimal" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="noprint mw-cite-backlink"><a href="#cite_ref-1">↑</a> </span><span class="reference-text"><span class="ouvrage"><abbr class="abbr indicateur-langue" title="Langue&#32;: anglais">(en)</abbr> <span lang="en"><a rel="nofollow" class="external text" href="http://www.itl.nist.gov/div898/handbook/pmc/section3/pmc324.htm">«&#160;<cite style="font-style: normal;">NIST/SEMATECH e-Handbook of Statistical Methods: EWMA Control Charts</cite>&#160;»</a></span>, sur <span class="italique"><a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">National Institute of Standards and Technology</a></span> <small style="line-height:1em;">(consulté le <span class="nowrap">19 septembre 2007</span>)</small></span></span>
+</li>
+<li id="cite_note-2"><span class="noprint mw-cite-backlink"><a href="#cite_ref-2">↑</a> </span><span class="reference-text"><span class="ouvrage"><abbr class="abbr indicateur-langue" title="Langue&#32;: anglais">(en)</abbr> <span lang="en"><a rel="nofollow" class="external text" href="http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc431.htm">«&#160;<cite style="font-style: normal;">NIST/SEMATECH e-Handbook of Statistical Methods: Single Exponential Smoothing</cite>&#160;»</a></span>, sur <span class="italique"><a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">National Institute of Standards and Technology</a></span> <small style="line-height:1em;">(consulté le <span class="nowrap">19 septembre 2007</span>)</small></span></span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Annexes">Annexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=12" class="mw-editsection-visualeditor" title="Modifier la section : Annexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=12" title="Modifier la section : Annexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=13" class="mw-editsection-visualeditor" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=13" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Moyenne" title="Moyenne">Moyenne</a></li></ul>
+<h3><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit&amp;section=14" class="mw-editsection-visualeditor" title="Modifier la section : Liens externes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit&amp;section=14" title="Modifier la section : Liens externes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><abbr class="abbr indicateur-langue" title="Langue&#32;: anglais">(en)</abbr> <a rel="nofollow" class="external text" href="http://www.cafemath.fr/mathblog/article.php?page=MovingAverages.php">Café Math&#160;: Moving Averages</a>&#160;: Article de blog sur le calcul des moyennes mobiles</li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Moyennes" title="Modèle:Palette Moyennes"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a>&#160;· <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Moyennes&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%"><a href="/wiki/Moyenne" title="Moyenne">Moyennes</a></div></th>
+</tr>  <tr>
+<th class="navbox-group" style="width:170px">Mathématiques</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Moyenne_arithm%C3%A9tique" title="Moyenne arithmétique">Arithmétique</a>
+<ul><li><a href="/wiki/Moyenne_pond%C3%A9r%C3%A9e" title="Moyenne pondérée">pondérée</a></li></ul></li>
+<li><a href="/wiki/Moyenne_g%C3%A9om%C3%A9trique" title="Moyenne géométrique">Géométrique</a>
+<ul><li><a href="/wiki/Moyenne_g%C3%A9om%C3%A9trique_pond%C3%A9r%C3%A9e" title="Moyenne géométrique pondérée">pondérée</a></li></ul></li>
+<li><a href="/wiki/Moyenne_arithm%C3%A9tico-g%C3%A9om%C3%A9trique" title="Moyenne arithmético-géométrique">Arithmético-géométrique</a></li>
+<li><a href="/wiki/Moyenne_harmonique" title="Moyenne harmonique">Harmonique</a>
+<ul><li><a href="/wiki/Moyenne_harmonique_pond%C3%A9r%C3%A9e" title="Moyenne harmonique pondérée">pondérée</a></li></ul></li>
+<li><a href="/wiki/Moyenne_quadratique" title="Moyenne quadratique">Quadratique</a></li>
+<li><a href="/wiki/Moyenne_g%C3%A9n%C3%A9ralis%C3%A9e" title="Moyenne généralisée">Généralisée</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:170px">Statistiques</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Moyenne_tronqu%C3%A9e" title="Moyenne tronquée">Tronquée ou réduite</a></li>
+<li><a class="mw-selflink selflink">Mobile ou glissante</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:170px">Relations entre moyennes</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/In%C3%A9galit%C3%A9_de_Muirhead" title="Inégalité de Muirhead">Inégalité de Muirhead</a></li>
+<li><a href="/wiki/In%C3%A9galit%C3%A9_arithm%C3%A9tico-g%C3%A9om%C3%A9trique" title="Inégalité arithmético-géométrique">Inégalité arithmético-géométrique</a></li></ul>
+</div></td>
+</tr>                            </tbody></table>
+</div>
+<ul id="bandeau-portail" class="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Math%C3%A9matiques" title="Portail des mathématiques"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/24px-Racine_carr%C3%A9e_bleue.svg.png" decoding="async" width="24" height="24" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/36px-Racine_carr%C3%A9e_bleue.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/48px-Racine_carr%C3%A9e_bleue.svg.png 2x" data-file-width="128" data-file-height="128" /></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Math%C3%A9matiques" title="Portail:Mathématiques">Portail des mathématiques</a></span> </span></li>                    </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1333
+Cached time: 20191012150939
+Cache expiry: 2592000
+Dynamic content: false
+Complications: []
+CPU time usage: 0.248 seconds
+Real time usage: 0.449 seconds
+Preprocessor visited node count: 989/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 19958/2097152 bytes
+Template argument size: 3158/2097152 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3066/5000000 bytes
+Number of Wikibase entities loaded: 1/400
+Lua time usage: 0.078/10.000 seconds
+Lua memory usage: 2.94 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  267.741      1 -total
+ 22.12%   59.223      1 Modèle:Portail
+ 20.28%   54.303      1 Modèle:Références
+ 19.45%   52.083      1 Modèle:Traduction/Référence
+ 17.30%   46.314      2 Modèle:Lien_web
+ 15.88%   42.529      2 Modèle:Indication_de_langue
+ 15.14%   40.534      1 Modèle:Palette
+ 11.82%   31.649      1 Modèle:Palette_Moyennes
+ 11.04%   29.557      1 Modèle:Loupe
+ 10.80%   28.903      1 Modèle:Méta_palette_de_navigation
+-->
+
+<!-- Saved in parser cache with key frwiki:pcache:idhash:1213757-0!canonical!math=5 and timestamp 20191012150938 and revision id 157027169
+ -->
+</div><noscript><img src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		
+		<div class="printfooter">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Moyenne_mobile&amp;oldid=157027169">https://fr.wikipedia.org/w/index.php?title=Moyenne_mobile&amp;oldid=157027169</a>&#160;».</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Moyenne" title="Catégorie:Moyenne">Moyenne</a></li><li><a href="/wiki/Cat%C3%A9gorie:Statistiques" title="Catégorie:Statistiques">Statistiques</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Portail:Math%C3%A9matiques/Articles_li%C3%A9s" title="Catégorie:Portail:Mathématiques/Articles liés">Portail:Mathématiques/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Menu de navigation</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Outils personnels</h3>
+						<ul>
+							<li id="pt-anonuserpage">Non connecté</li><li id="pt-anontalk"><a href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n">Discussion</a></li><li id="pt-anoncontribs"><a href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Moyenne+mobile" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire.">Créer un compte</a></li><li id="pt-login"><a href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Moyenne+mobile" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o">Se connecter</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Espaces de noms</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Moyenne_mobile" title="Voir le contenu de la page [c]" accesskey="c">Article</a></span></li><li id="ca-talk" class="new"><span><a href="/w/index.php?title=Discussion:Moyenne_mobile&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion au sujet de cette page de contenu (page inexistante) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variantes</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Affichages</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Moyenne_mobile">Lire</a></span></li><li id="ca-ve-edit" class="collapsible"><span><a href="/w/index.php?title=Moyenne_mobile&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v">Modifier</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Moyenne_mobile&amp;action=edit" title="Vous pouvez modifier cette page ! [e]" accesskey="e">Modifier le code</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Moyenne_mobile&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h">Voir l’historique</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>Plus</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Rechercher</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Rechercher dans Wikipédia" title="Rechercher dans Wikipédia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Spécial:Recherche" name="title"/><input type="submit" name="fulltext" value="Rechercher" title="Rechercher les pages comportant ce texte." id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Continuer" title="Accédez à une page du même nom si elle existe" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Visiter la page d’accueil"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]" accesskey="z">Accueil</a></li><li id="n-thema"><a href="/wiki/Portail:Accueil">Portails thématiques</a></li><li id="n-randompage"><a href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]" accesskey="x">Article au hasard</a></li><li id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact">Contact</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Contribuer" aria-labelledby="p-Contribuer-label">
+			<h3 id="p-Contribuer-label">Contribuer</h3>
+			<div class="body">
+								<ul>
+					<li id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter">Débuter sur Wikipédia</a></li><li id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide">Aide</a></li><li id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations">Communauté</a></li><li id="n-recentchanges"><a href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r">Modifications récentes</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous">Faire un don</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Outils</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Moyenne_mobile" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j">Pages liées</a></li><li id="t-recentchangeslinked"><a href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Moyenne_mobile" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k">Suivi des pages liées</a></li><li id="t-upload"><a href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]" accesskey="u">Téléverser un fichier</a></li><li id="t-specialpages"><a href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]" accesskey="q">Pages spéciales</a></li><li id="t-permalink"><a href="/w/index.php?title=Moyenne_mobile&amp;oldid=157027169" title="Adresse permanente de cette version de la page">Lien permanent</a></li><li id="t-info"><a href="/w/index.php?title=Moyenne_mobile&amp;action=info" title="Plus d’information sur cette page">Informations sur la page</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1130194" title="Lien vers l’élément de référentiel des données connectées [g]" accesskey="g">Élément Wikidata</a></li><li id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Moyenne_mobile&amp;id=157027169" title="Informations sur la manière de citer cette page">Citer cette page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label">
+			<h3 id="p-wikibase-otherprojects-label">Dans d’autres projets</h3>
+			<div class="body">
+								<ul>
+					<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Moving_averages" hreflang="en">Wikimedia Commons</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Imprimer / exporter</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Moyenne+mobile">Créer un livre</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:ElectronPdf&amp;page=Moyenne+mobile&amp;action=show-download-screen">Télécharger comme PDF</a></li><li id="t-print"><a href="/w/index.php?title=Moyenne_mobile&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p">Version imprimable</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Dans d’autres langues</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%9F%D1%8A%D0%BB%D0%B7%D1%8F%D1%89%D0%B0_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D0%B9%D0%BD%D0%BE%D1%81%D1%82" title="Пълзяща средна стойност — bulgare" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Mitjana_m%C3%B2bil" title="Mitjana mòbil — catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Klouzav%C3%BD_pr%C5%AFm%C4%9Br" title="Klouzavý průměr — tchèque" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Gleitender_Mittelwert" title="Gleitender Mittelwert — allemand" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%B9%CE%BD%CE%B7%CF%84%CF%8C%CF%82_%CE%BC%CE%AD%CF%83%CE%BF%CF%82_%CF%8C%CF%81%CE%BF%CF%82" title="Κινητός μέσος όρος — grec" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Moving_average" title="Moving average — anglais" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Media_m%C3%B3vil" title="Media móvil — espagnol" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Batezbesteko_higikor" title="Batezbesteko higikor — basque" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%DB%8C%D8%A7%D9%86%DA%AF%DB%8C%D9%86_%D9%85%D8%AA%D8%AD%D8%B1%DA%A9" title="میانگین متحرک — persan" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Liukuva_keskiarvo" title="Liukuva keskiarvo — finnois" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%9E%D7%9E%D7%95%D7%A6%D7%A2_%D7%A0%D7%A2" title="ממוצע נע — hébreu" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Media_mobile" title="Media mobile — italien" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87" title="移動平均 — japonais" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81_%D0%BD%D0%B0_%D0%BF%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%B8_%D1%81%D1%80%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8" title="Процес на подвижни средини — macédonien" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Voortschrijdend_gemiddelde" title="Voortschrijdend gemiddelde — néerlandais" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/%C5%9Arednia_ruchoma" title="Średnia ruchoma — polonais" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel" title="Média móvel — portugais" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F" title="Скользящая средняя — russe" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Glidande_medelv%C3%A4rde" title="Glidande medelvärde — suédois" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-tl"><a href="https://tl.wikipedia.org/wiki/Moving_Average" title="Moving Average — tagalog" lang="tl" hreflang="tl" class="interlanguage-link-target">Tagalog</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A0%D1%83%D1%85%D0%BE%D0%BC%D0%B5_%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%94" title="Рухоме середнє — ukrainien" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Trung_b%C3%ACnh_tr%C6%B0%E1%BB%A3t" title="Trung bình trượt — vietnamien" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87" title="移動平均 — chinois" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1130194#sitelinks-wikipedia" title="Modifier les liens interlangues" class="wbc-editpage">Modifier les liens</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 25 février 2019 à 00:35.</li>
+								<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Moyenne_mobile" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br />
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br /></li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr" class="extiw" title="m:Privacy policy/fr">Politique de confidentialité</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia" title="Wikipédia:À propos de Wikipédia">À propos de Wikipédia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux" title="Wikipédia:Avertissements généraux">Avertissements</a></li>
+								<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Développeurs</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+								<li id="footer-places-mobileview"><a href="//fr.m.wikipedia.org/w/index.php?title=Moyenne_mobile&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.248","walltime":"0.449","ppvisitednodes":{"value":989,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":19958,"limit":2097152},"templateargumentsize":{"value":3158,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3066,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  267.741      1 -total"," 22.12%   59.223      1 Modèle:Portail"," 20.28%   54.303      1 Modèle:Références"," 19.45%   52.083      1 Modèle:Traduction/Référence"," 17.30%   46.314      2 Modèle:Lien_web"," 15.88%   42.529      2 Modèle:Indication_de_langue"," 15.14%   40.534      1 Modèle:Palette"," 11.82%   31.649      1 Modèle:Palette_Moyennes"," 11.04%   29.557      1 Modèle:Loupe"," 10.80%   28.903      1 Modèle:Méta_palette_de_navigation"]},"scribunto":{"limitreport-timeusage":{"value":"0.078","limit":"10.000"},"limitreport-memusage":{"value":3083135,"limit":52428800}},"cachereport":{"origin":"mw1333","timestamp":"20191012150939","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Moyenne mobile","url":"https:\/\/fr.wikipedia.org\/wiki\/Moyenne_mobile","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1130194","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1130194","author":{"@type":"Organization","name":"Contributeurs aux projets de Wikim\u00e9dia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-12-13T16:50:26Z","dateModified":"2019-02-24T22:35:01Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d9\/MovingAverage.GIF"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":136,"wgHostname":"mw1272"});});</script>
+</body>
+</html>
