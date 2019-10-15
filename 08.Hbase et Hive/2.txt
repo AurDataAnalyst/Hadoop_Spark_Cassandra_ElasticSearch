@@ -1,0 +1,41 @@
+﻿# création de l'index tests contenant le type test
+PUT LOGNAME-tests?include_type_name=true
+{
+    "settings": {
+        "number_of_shards": 1,
+        "number_of_replicas": 0
+    },
+    "mappings": {
+        "test": {
+            "properties": {
+              "nom": { "type": "keyword" },
+              "valeur": { "type": "integer"}
+            }
+        }
+    }
+}
+
+# ajout de quelques données dans l'index
+PUT LOGNAME-tests/test/1
+{
+  "nom":"a",
+  "valeur":2
+}
+PUT LOGNAME-tests/test/2
+{
+  "nom":"b",
+  "valeur":-7
+}
+
+# recherche simple
+GET LOGNAME-tests/test/_search
+{
+  "query": {
+    "match": {
+      "valeur": -7
+    }
+  }
+}
+
+# suppression de l'index tests
+DELETE LOGNAME-tests

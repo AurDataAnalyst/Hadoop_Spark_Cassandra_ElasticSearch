@@ -1,0 +1,8 @@
+﻿    http://hadoop:9200/LLLL-tests/_search?q=valeur:7
+    http://hadoop:9200/LLLL-tests/_search?q=valeur:\-7
+    http://hadoop:9200/LLLL-tests/_search?q=valeur:"-7"
+    http://hadoop:9200/LLLL-tests/_search?q=valeur:>0
+    http://hadoop:9200/LLLL-tests/_search?q=nom:("a", "c")
+    http://hadoop:9200/LLLL-tests/_search?q=nom:(-"a")
+    http://hadoop:9200/LLLL-tests/_search?q=-nom:"a" AND -valeur:7
+    http://hadoop:9200/LLLL-tests/_search?q=nom:["a" TO "b"]
